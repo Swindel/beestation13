@@ -243,7 +243,7 @@ GLOBAL_PROTECT(security_mode)
 	s += "</a>"
 	s += "/"
 	s += "<a href=\"https://discord.gg/z9ttAvA\">"
-	s += "Discord
+	s += "Discord"
 	s += ")"
 
 	var/n = 0
