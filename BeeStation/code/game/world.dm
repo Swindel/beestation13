@@ -235,6 +235,7 @@ GLOBAL_PROTECT(security_mode)
 		if(CONFIG_GET(flag/allow_ai))
 			features += "AI allowed"
 		hostedby = CONFIG_GET(string/hostedby)
+		features += "Newbie Friendly"
 
 	s += "<b>[station_name()]</b>";
 	s += " ("
