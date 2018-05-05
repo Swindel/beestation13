@@ -246,8 +246,8 @@ GLOBAL_PROTECT(security_mode)
 	s += "/"
 	s += "<a href=\"https://discord.gg/z9ttAvA\">"
 	s += "Discord"
-	s += ")"
 	s += "</a>"
+	s += ")"
 
 	var/n = 0
 	for (var/mob/M in GLOB.player_list)
