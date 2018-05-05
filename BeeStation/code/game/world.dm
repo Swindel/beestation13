@@ -236,6 +236,7 @@ GLOBAL_PROTECT(security_mode)
 			features += "AI allowed"
 		hostedby = CONFIG_GET(string/hostedby)
 		features += "Newbie Friendly"
+		features += "Medium RP"
 
 	s += "<b>[station_name()]</b>";
 	s += " ("
@@ -246,6 +247,7 @@ GLOBAL_PROTECT(security_mode)
 	s += "<a href=\"https://discord.gg/z9ttAvA\">"
 	s += "Discord"
 	s += ")"
+	s += "</a>"
 
 	var/n = 0
 	for (var/mob/M in GLOB.player_list)

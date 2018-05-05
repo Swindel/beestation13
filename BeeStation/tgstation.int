@@ -1,10 +1,10 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1525391147
+LAST_COMPILE_TIME: 1525537203
 DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__DEFINES code\controllers code\controllers\subsystem code\datums code\datums\diseases code\datums\diseases\advance code\datums\diseases\advance\symptoms code\datums\martial code\game 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 512.1420
+LAST_COMPILE_VERSION: 512.1423
 WINDOW: code\world.dm;code\game\world.dm
 FILE: code\game\world.dm
 */
