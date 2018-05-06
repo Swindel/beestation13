@@ -782,7 +782,7 @@
 "apb" = (/obj/structure/plasticflaps,/turf/open/floor/plating,/area/security/processing)
 "apc" = (/obj/machinery/door/airlock/maintenance{name = "Security Maintenance"; req_access_txt = "2"},/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/maintenance/fore)
 "apd" = (/turf/closed/wall,/area/security/detectives_office)
-"ape" = (/obj/machinery/door/firedoor,/obj/machinery/door/airlock/engineering/abandoned{name = "Vacant Office B"; req_access_txt = "32"},/turf/open/floor/plating,/area/security/detectives_office)
+"ape" = (/obj/machinery/door/airlock/security{name = "Detective's Office"; req_access_txt = "63"},/turf/open/floor/plating,/area/security/detectives_office)
 "apf" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/rack,/obj/item/clothing/suit/armor/vest/det_suit,/turf/open/floor/carpet,/area/security/detectives_office)
 "apg" = (/obj/machinery/door/airlock/maintenance{req_access_txt = "12"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/open/floor/plating,/area/maintenance/fore)
 "aph" = (/turf/closed/wall,/area/lawoffice)
