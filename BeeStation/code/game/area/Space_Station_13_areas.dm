@@ -143,6 +143,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Security Maintenance"
 	icon_state = "maint_sec"
 
+/area/maintenance/department/security/panicroom
+	name = "Panic Room"
+	icon_state = "panicroom"
+
 /area/maintenance/department/security/brig
 	name = "Brig Maintenance"
 	icon_state = "maint_brig"
