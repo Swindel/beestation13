@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1525723552
-DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\map_files\Mining _maps\shuttles code code\__DEFINES code\__HELPERS code\controllers code\controllers\subsystem code\datums code\datums\diseases code\datums\diseases\advance code\datums\mutations code\game code\game\gamemodes code\game\gamemodes\clock_cult code\modules code\modules\reagents code\modules\reagents\chemistry code\modules\reagents\chemistry\reagents code\modules\reagents\chemistry\recipes code\modules\reagents\reagent_containers interface 
+LAST_COMPILE_TIME: 1525735764
+DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__HELPERS code\game code\game\machinery code\modules code\modules\atmospherics code\modules\atmospherics\machinery code\modules\atmospherics\machinery\components code\modules\atmospherics\machinery\components\unary_devices code\modules\reagents code\modules\reagents\chemistry code\modules\reagents\chemistry\reagents code\modules\reagents\chemistry\recipes interface 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1423
-WINDOW: code\world.dm;code\game\world.dm;code\game\gamemodes\clock_cult\clock_cult.dm;interface\interface.dm;interface\menu.dm;interface\stylesheet.dm;_maps\boxstation.dm;code\__HELPERS\areas.dm;code\modules\reagents\chemistry\recipes\toxins.dm;code\modules\reagents\chemistry\reagents\drug_reagents.dm;code\modules\reagents\chemistry\reagents\medicine_reagents.dm;code\modules\reagents\chemistry\recipes\medicine.dm;code\modules\reagents\reagent_containers\bottle.dm
-FILE: code\modules\reagents\reagent_containers\bottle.dm
+WINDOW: code\world.dm;code\game\world.dm;interface\interface.dm;interface\menu.dm;interface\stylesheet.dm;_maps\boxstation.dm;code\__HELPERS\areas.dm;code\modules\reagents\chemistry\recipes\toxins.dm;code\modules\atmospherics\machinery\components\unary_devices\cryo.dm;code\modules\reagents\chemistry\recipes\medicine.dm;code\modules\reagents\chemistry\reagents\medicine_reagents.dm;code\modules\reagents\chemistry\reagents\drug_reagents.dm;_maps\map_files\BoxStation\BoxStation.dmm
+FILE: _maps\map_files\BoxStation\BoxStation.dmm
 */
 // END_INTERNALS

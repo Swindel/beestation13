@@ -1036,7 +1036,7 @@
 "atV" = (/obj/machinery/airalarm{dir = 4; pixel_x = -23},/obj/structure/disposalpipe/segment,/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 1},/turf/open/floor/plasteel/neutral/side{dir = 8},/area/crew_quarters/fitness)
 "atW" = (/obj/structure/chair/stool,/turf/open/floor/plating,/area/maintenance/port/fore)
 "atX" = (/obj/structure/table,/turf/open/floor/plasteel,/area/crew_quarters/heads/hop)
-"atY" = (/obj/structure/table/wood,/obj/item/borg/sight/hud/sec,/turf/open/floor/carpet,/area/security/detectives_office)
+"atY" = (/obj/structure/table/wood,/obj/item/clothing/glasses/hud/security/sunglasses,/turf/open/floor/carpet,/area/security/detectives_office)
 "atZ" = (/obj/machinery/door/firedoor,/obj/machinery/door/airlock/public/glass{name = "Holodeck Door"},/turf/open/floor/plasteel,/area/crew_quarters/fitness)
 "aua" = (/turf/open/floor/plasteel/red/side{dir = 4},/area/crew_quarters/fitness)
 "aub" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/turf/open/floor/plasteel/yellow/side,/area/construction/mining/aux_base)

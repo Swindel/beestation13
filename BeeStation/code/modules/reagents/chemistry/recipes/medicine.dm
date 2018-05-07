@@ -231,7 +231,7 @@
 	name = "Hypothermite"
 	id = "hypothermite"
 	results = list("hypothermite" = 2)
-	required_reagents = list("cryoxadone" = 1, "lithium" = 1)
+	required_reagents = list("cryoxadone" = 1, "lithium" = 1, "silicon" = 1)
 	mix_message = "The mixture cools into a blue liquid."
 
 /datum/chemical_reaction/regen_jelly

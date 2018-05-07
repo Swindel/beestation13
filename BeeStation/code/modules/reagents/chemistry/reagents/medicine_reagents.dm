@@ -93,13 +93,19 @@
 		. = 1
 	..()
 /datum/reagent/medicine/hypothermite
-	name="hypthermite"
+	name="Hypthermite"
 	id = "hypothermite"
 	description = "Reduces temperature of the body, allowing for cryoxadone to work on the go,"
 	color = "#8533ff"
+	overdose_threshold = 20
+
 
 /datum/reagent/medicine/hypothermite/on_mob_life(mob/living/M)
 	M.adjust_bodytemperature(-50)
+
+datum/reagent/medicine/hypothermite/overdose_process(mob/living/M)
+	to_chat(M, "<span class='userdanger'>You feel your body tensing up...</span>")
+	M.adjust_bodytemperature(-75)
 
 /datum/reagent/medicine/synaphydramine
 	name = "Diphen-Synaptizine"
