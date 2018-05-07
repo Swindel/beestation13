@@ -92,15 +92,14 @@
 		M.adjustToxLoss(1, 0)
 		. = 1
 	..()
-/datum/reagent/medicine/cryodazine
-	name="Cryodazine"
-	id = "cryodazine"
+/datum/reagent/medicine/hypothermite
+	name="hypthermite"
+	id = "hypothermite"
 	description = "Reduces temperature of the body, allowing for cryoxadone to work on the go,"
-	color = "#6bfff8"
-	mix_message
+	color = "#8533ff"
 
-/datum/reagent/medicin/on_mob_life(mob/living/M)
-	M.adjust_bodytemperature(-20)
+/datum/reagent/medicine/hypothermite/on_mob_life(mob/living/M)
+	M.adjust_bodytemperature(-50)
 
 /datum/reagent/medicine/synaphydramine
 	name = "Diphen-Synaptizine"

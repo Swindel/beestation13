@@ -71,10 +71,10 @@
 	icon = 'icons/obj/chemical.dmi'
 	list_reagents = list("morphine" = 30)
 
-/obj/item/reagent_containers/glass/bottle/morphine
-	name = "cryodazine bottle"
-	desc = "A small bottle of cryodazine."
-	list_reagents = list("cryodazine" = 30)
+/obj/item/reagent_containers/glass/bottle/hypothermite
+	name = "hypothermite bottle"
+	desc = "A small bottle of hypothermite."
+	list_reagents = list("hypothermite" = 30)
 
 /obj/item/reagent_containers/glass/bottle/chloralhydrate
 	name = "Chloral Hydrate Bottle"
@@ -84,7 +84,7 @@
 
 /obj/item/reagent_containers/glass/bottle/charcoal
 	name = "charcoal bottle"
-	desc = "A small bottle of charcoal, which removes toxins and other chemicals from the bloodstream."
+	desc = "A small bottle which removes toxins and other chemicals from the bloodstream."
 	list_reagents = list("charcoal" = 30)
 
 /obj/item/reagent_containers/glass/bottle/mutagen

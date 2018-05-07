@@ -488,12 +488,12 @@
 	return ..()
 
 /datum/reagent/toxin/botulinum
-	name = "Botulinum Toxin"
+	name = "Botulinum Toxin" //based on real-life toxin
 	id = "botulinum"
 	description = "One of the most deadly substances known to man."
 	reagent_state = LIQUID
 	color = "#49ff29" //bright green
-	metabolization_rate = 0.5 * REAGENTS_METABOLISM
+	metabolization_rate = 0.01 * REAGENTS_METABOLISM
 	toxpwr = 50
 
 /datum/reagent/toxin/botulinum/on_mob_life(mob/living/M)
