@@ -24,7 +24,7 @@
 	name = "Botulinum Toxin"
 	id = "botulinum"
 	results = list("botulinum" = 1)
-	required_reagents = list("water" = 10, "virusfood" = 10, "cyanide" = 5, "mutagen"=5, "skewium" = 5, "Rotatium" = 5)
+	required_reagents = list("water" = 15, "mutagenvirusfood" = 15, "cyanide" = 10, "skewium" = 10, "Rotatium" = 10)
 	required_temp = 600
 
 /datum/chemical_reaction/itching_powder

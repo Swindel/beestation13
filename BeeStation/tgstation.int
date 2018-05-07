@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1525666436
-DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\map_files\Mining _maps\shuttles code code\__DEFINES code\__HELPERS code\controllers code\controllers\subsystem code\datums code\datums\diseases code\datums\diseases\advance code\game code\game\area code\game\gamemodes code\game\gamemodes\clock_cult code\game\objects code\game\objects\items code\game\objects\items\storage code\modules code\modules\clothing code\modules\clothing\suits code\modules\hydroponics code\modules\hydroponics\grown code\modules\reagents code\modules\reagents\chemistry code\modules\reagents\chemistry\reagents code\modules\reagents\chemistry\recipes code\modules\reagents\reagent_containers icons icons\mob icons\mob\inhands icons\obj icons\obj\clothing icons\turf interface 
+LAST_COMPILE_TIME: 1525669655
+DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\map_files\Mining _maps\shuttles code code\__DEFINES code\__HELPERS code\controllers code\controllers\subsystem code\datums code\datums\diseases code\datums\diseases\advance code\game code\game\area code\game\gamemodes code\game\gamemodes\clock_cult code\modules code\modules\reagents code\modules\reagents\chemistry code\modules\reagents\chemistry\reagents code\modules\reagents\chemistry\recipes code\modules\reagents\reagent_containers icons icons\turf interface 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1423
-WINDOW: code\world.dm;code\game\world.dm;code\game\gamemodes\clock_cult\clock_cult.dm;interface\interface.dm;interface\menu.dm;interface\stylesheet.dm;_maps\boxstation.dm;code\__HELPERS\areas.dm;icons\turf\areas.dmi;code\game\area\areas.dm;_maps\map_files\BoxStation\BoxStation.dmm;icons\mob\inhands\clothing_lefthand.dmi;icons\mob\inhands\clothing_righthand.dmi;icons\obj\clothing\uniforms.dmi;code\game\objects\items\storage\uplink_kits.dm;code\modules\hydroponics\grown\berries.dm;code\modules\hydroponics\grown\cannabis.dm;code\modules\reagents\chemistry\reagents\toxin_reagents.dm;code\modules\reagents\chemistry\recipes\medicine.dm;code\modules\reagents\chemistry\recipes\toxins.dm;code\modules\reagents\reagent_containers\borghydro.dm;code\modules\reagents\reagent_containers\bottle.dm
-FILE: code\modules\reagents\chemistry\reagents\toxin_reagents.dm
+WINDOW: code\world.dm;code\game\world.dm;code\game\gamemodes\clock_cult\clock_cult.dm;interface\interface.dm;interface\menu.dm;interface\stylesheet.dm;_maps\boxstation.dm;code\__HELPERS\areas.dm;icons\turf\areas.dmi;code\game\area\areas.dm;code\modules\reagents\chemistry\recipes\toxins.dm;code\modules\reagents\reagent_containers\bottle.dm;code\modules\reagents\chemistry\reagents\toxin_reagents.dm;code\modules\reagents\chemistry\recipes\drugs.dm;code\modules\reagents\chemistry\reagents\medicine_reagents.dm
+FILE: code\modules\reagents\chemistry\recipes\toxins.dm
 */
 // END_INTERNALS
