@@ -20,6 +20,13 @@
 	required_reagents = list("oil" = 1, "ammonia" = 1, "oxygen" = 1)
 	required_temp = 380
 
+/datum/chemical_reaction/botulinum
+	name = "Botulinum Toxin"
+	id = "botulinum"
+	results = list("botulinum" = 1)
+	required_reagents = list("water" = 10, "virusfood" = 10, "cyanide" = 5, "mutagen"=5, "skewium" = 5, "Rotatium" = 5)
+	required_temp = 600
+
 /datum/chemical_reaction/itching_powder
 	name = "Itching Powder"
 	id = "itching_powder"

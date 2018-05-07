@@ -478,13 +478,22 @@
 	metabolization_rate = 0.125 * REAGENTS_METABOLISM
 	toxpwr = 1.25
 
-/datum/reagent/toxin/cyanide/on_mob_life(mob/living/M)
+/datum/reagent/toxin/botulinum
+	name = "Botulinum Toxin"
+	id = "botulinum"
+	description = "One of the most deadly substances known to man."
+	reagent_state = LIQUID
+	color = "#49ff29"
+	metabolization_rate = 0.5 * REAGENTS_METABOLISM
+	toxpwr = 20
+
+/datum/reagent/toxin/botulinum/on_mob_life(mob/living/M)
 	if(prob(5))
-		M.losebreath += 1
+		M.losebreath += 10
 	if(prob(8))
-		to_chat(M, "You feel horrendously weak!")
+		to_chat(M, "You feel sick.")
 		M.Stun(40, 0)
-		M.adjustToxLoss(2*REM, 0)
+		M.adjustToxLoss(5*REM, 0)
 	return ..()
 
 /datum/reagent/toxin/bad_food

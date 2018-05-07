@@ -2579,7 +2579,7 @@
 "aXE" = (/obj/structure/disposalpipe/segment{dir = 4},/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,/turf/closed/wall,/area/quartermaster/warehouse)
 "aXF" = (/obj/effect/landmark/event_spawn,/turf/open/floor/plasteel/vault{dir = 5},/area/crew_quarters/fitness)
 "aXG" = (/obj/machinery/light{dir = 4},/obj/effect/turf_decal/stripes/line{dir = 4},/turf/open/floor/plasteel,/area/hallway/secondary/exit)
-"aXH" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/machinery/power/apc{areastring = "area/security/vacantoffice"; step_x = -26},/turf/open/floor/plasteel/grimy,/area/security/vacantoffice)
+"aXH" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/machinery/power/apc{areastring = "area/security/vacantoffice"; name = "Vacant Office APC"; step_x = -26},/turf/open/floor/plasteel/grimy,/area/security/vacantoffice)
 "aXI" = (/obj/effect/mapping_helpers/airlock/cyclelink_helper{dir = 4},/obj/machinery/door/airlock/external{name = "Port Docking Bay 2"},/turf/open/floor/plating,/area/hallway/secondary/entry)
 "aXJ" = (/obj/structure/disposalpipe/segment{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/hidden,/turf/closed/wall,/area/quartermaster/warehouse)
 "aXK" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/turf/open/floor/plasteel/grimy,/area/security/vacantoffice)
