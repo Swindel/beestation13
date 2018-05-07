@@ -20,7 +20,7 @@
 	required_reagents = list("oil" = 1, "ammonia" = 1, "oxygen" = 1)
 	required_temp = 380
 
-/datum/chemical_reaction/botulinum
+/datum/chemical_reaction/botulinum  //secret, keep hush hush, unless you see this on github and decide to leak it
 	name = "Botulinum Toxin"
 	id = "botulinum"
 	results = list("botulinum" = 1)

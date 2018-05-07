@@ -227,6 +227,13 @@
 	results = list("tricordrazine" = 3)
 	required_reagents = list("bicaridine" = 1, "kelotane" = 1, "antitoxin" = 1)
 
+/datum/chemical_reaction/cryodazine
+	name = "Cryodazine"
+	id = "cryodazine"
+	results = list("cryodazine" = 2)
+	required_reagents = list("cryoxadone" = 1, "lithium" = 1)
+	mix_message = "The mixture cools into a blue liquid."
+
 /datum/chemical_reaction/regen_jelly
 	name = "Regenerative Jelly"
 	id = "regen_jelly"

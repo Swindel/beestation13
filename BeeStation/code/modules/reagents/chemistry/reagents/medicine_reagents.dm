@@ -92,6 +92,15 @@
 		M.adjustToxLoss(1, 0)
 		. = 1
 	..()
+/datum/reagent/medicine/cryodazine
+	name="Cryodazine"
+	id = "cryodazine"
+	description = "Reduces temperature of the body, allowing for cryoxadone to work on the go,"
+	color = "#6bfff8"
+	mix_message
+
+/datum/reagent/medicin/on_mob_life(mob/living/M)
+	M.adjust_bodytemperature(-20)
 
 /datum/reagent/medicine/synaphydramine
 	name = "Diphen-Synaptizine"
@@ -140,6 +149,8 @@
 		. = 1
 	metabolization_rate = REAGENTS_METABOLISM * (0.00001 * (M.bodytemperature ** 2) + 0.5)
 	..()
+
+
 
 /datum/reagent/medicine/clonexadone
 	name = "Clonexadone"

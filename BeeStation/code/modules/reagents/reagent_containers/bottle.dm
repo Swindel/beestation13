@@ -71,6 +71,11 @@
 	icon = 'icons/obj/chemical.dmi'
 	list_reagents = list("morphine" = 30)
 
+/obj/item/reagent_containers/glass/bottle/morphine
+	name = "cryodazine bottle"
+	desc = "A small bottle of cryodazine."
+	list_reagents = list("cryodazine" = 30)
+
 /obj/item/reagent_containers/glass/bottle/chloralhydrate
 	name = "Chloral Hydrate Bottle"
 	desc = "A small bottle of Choral Hydrate. Mickey's Favorite!"

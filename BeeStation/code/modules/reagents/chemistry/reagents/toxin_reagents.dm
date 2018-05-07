@@ -492,15 +492,15 @@
 	id = "botulinum"
 	description = "One of the most deadly substances known to man."
 	reagent_state = LIQUID
-	color = "#49ff29"
+	color = "#49ff29" //bright green
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
-	toxpwr = 25
+	toxpwr = 50
 
 /datum/reagent/toxin/botulinum/on_mob_life(mob/living/M)
 	if(prob(5))
 		M.losebreath += 10
 	if(prob(8))
-		to_chat(M, "You feel sick, tired, and full of dread.")
+		to_chat(M, "You feel younger, but your skin feels tighter.")
 		M.Stun(40, 0)
 		M.adjustToxLoss(5*REM, 0)
 	return ..()
