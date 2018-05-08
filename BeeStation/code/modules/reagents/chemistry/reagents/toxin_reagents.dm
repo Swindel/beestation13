@@ -487,6 +487,25 @@
 		M.adjustToxLoss(2*REM, 0)
 	return ..()
 
+/datum/reagent/toxin/ricin
+	name = "Ricin"
+	id = "ricin"
+	description = "An infamous poison known for its use in assassination. Causes small amounts of toxin damage with a small chance of oxygen damage or a stun."
+	reagent_state = LIQUID
+	color = "#fff"
+	metabolization_rate = 0.125 * REAGENTS_METABOLISM
+	toxpwr = 0.25
+
+/datum/reagent/toxin/ricin/on_mob_life(mob/living/M)
+	if(current_cycle >= 10)
+		if(prob(5))
+			M.losebreath += 1
+		if(prob(8))
+			to_chat(M, "You feel horrendously weak!")
+			M.Stun(40, 0)
+			M.adjustToxLoss(10*REM, 0)
+		return ..()
+
 /datum/reagent/toxin/botulinum
 	name = "Botulinum Toxin" //based on real-life toxin
 	id = "botulinum"

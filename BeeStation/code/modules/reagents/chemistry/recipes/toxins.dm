@@ -1,3 +1,10 @@
+/datum/chemical_reaction/ricin
+	name = "Ricin"
+	id = "ricin"
+	results = list("ricin" = 3)
+	required_reagents = list("ehtanol" = 1, "cyanide" = 1, "sdoiumchloride" = 1)
+	required_temp = 800
+	mix_message = "The mixture condenses into a mysterious, odorless reagent."
 
 /datum/chemical_reaction/formaldehyde
 	name = "formaldehyde"
@@ -26,6 +33,7 @@
 	results = list("botulinum" = 1)
 	required_reagents = list("water" = 15, "mutagenvirusfood" = 15, "cyanide" = 10, "skewium" = 10, "rotatium" = 10)
 	required_temp = 600
+	mix_message = "The mixture condenses into a bright green liquid."
 
 /datum/chemical_reaction/itching_powder
 	name = "Itching Powder"
