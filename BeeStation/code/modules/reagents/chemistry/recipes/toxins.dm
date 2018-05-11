@@ -2,7 +2,7 @@
 	name = "Ricin"
 	id = "ricin"
 	results = list("ricin" = 3)
-	required_reagents = list("ehtanol" = 1, "cyanide" = 1, "sdoiumchloride" = 1)
+	required_reagents = list("ethanol" = 1, "cyanide" = 1, "sodiumchloride" = 1)
 	required_temp = 800
 	mix_message = "The mixture condenses into a mysterious, odorless reagent."
 

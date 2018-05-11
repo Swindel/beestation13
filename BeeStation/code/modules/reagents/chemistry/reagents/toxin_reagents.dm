@@ -488,18 +488,18 @@
 	return ..()
 
 /datum/reagent/toxin/ricin
+	//note to self or other coders; add vomit effects to ricin, and make it do no damage unti 10-15 cycles.
 	name = "Ricin"
 	id = "ricin"
-	description = "An infamous poison known for its use in assassination. Causes small amounts of toxin damage with a small chance of oxygen damage or a stun."
+	description = "An infamous poison known for its use in assassination."
 	reagent_state = LIQUID
 	color = "#fff"
-	metabolization_rate = 0.125 * REAGENTS_METABOLISM
-	toxpwr = 0.25
+	metabolization_rate = 0.25 * REAGENTS_METABOLISM
 
 /datum/reagent/toxin/ricin/on_mob_life(mob/living/M)
 	if(current_cycle >= 10)
 		if(prob(5))
-			M.losebreath += 1
+			M.losebreath += 5
 		if(prob(8))
 			to_chat(M, "You feel horrendously weak!")
 			M.Stun(40, 0)
