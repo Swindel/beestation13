@@ -494,7 +494,7 @@
 	description = "An infamous poison known for its use in assassination."
 	reagent_state = LIQUID
 	color = "#fff"
-	metabolization_rate = 0.25 * REAGENTS_METABOLISM
+	metabolization_rate = 0.25
 
 /datum/reagent/toxin/ricin/on_mob_life(mob/living/M)
 	if(current_cycle >= 10)
