@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1525790818
-DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__HELPERS code\_globalvars code\_globalvars\lists code\game code\game\machinery code\game\objects code\game\objects\items code\game\objects\items\devices code\game\objects\items\implants code\modules code\modules\atmospherics code\modules\atmospherics\machinery code\modules\atmospherics\machinery\components code\modules\clothing code\modules\integrated_electronics code\modules\integrated_electronics\subtypes code\modules\reagents code\modules\reagents\chemistry code\modules\reagents\chemistry\reagents code\modules\reagents\chemistry\recipes interface sound sound\voice sound\voice\complionator 
+LAST_COMPILE_TIME: 1526044968
+DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__HELPERS code\_globalvars code\_globalvars\lists code\game code\game\machinery code\game\objects code\game\objects\items code\game\objects\items\devices code\game\objects\items\implants code\modules code\modules\reagents code\modules\reagents\chemistry code\modules\reagents\chemistry\reagents code\modules\reagents\chemistry\recipes interface 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1423
-WINDOW: interface\menu.dm;_maps\boxstation.dm;code\__HELPERS\areas.dm;code\modules\reagents\chemistry\recipes\toxins.dm;code\modules\reagents\chemistry\reagents\toxin_reagents.dm;code\modules\reagents\chemistry\reagents\drink_reagents.dm;_maps\map_files\BoxStation\BoxStation.dmm;code\_globalvars\lists\objects.dm;code\game\objects\items.dm;code\game\objects\items\crayons.dm;code\game\objects\items\theft_tools.dm;code\game\objects\items\implants\implantchair.dm;code\game\objects\items\devices\electroadaptive_pseudocircuit.dm;code\modules\integrated_electronics\subtypes\reagents.dm;code\modules\reagents\chemistry\reagents\medicine_reagents.dm;code\modules\reagents\chemistry\recipes\medicine.dm
-FILE: code\modules\reagents\chemistry\reagents\medicine_reagents.dm
+WINDOW: interface\menu.dm;_maps\boxstation.dm;code\__HELPERS\areas.dm;code\modules\reagents\chemistry\recipes\toxins.dm;code\modules\reagents\chemistry\reagents\drink_reagents.dm;code\modules\reagents\chemistry\reagents\toxin_reagents.dm;code\modules\reagents\chemistry\reagents\medicine_reagents.dm
+FILE: code\modules\reagents\chemistry\reagents\toxin_reagents.dm
 */
 // END_INTERNALS

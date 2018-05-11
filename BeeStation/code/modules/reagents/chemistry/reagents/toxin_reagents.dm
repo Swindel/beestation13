@@ -515,6 +515,18 @@
 	metabolization_rate = 0.01 * REAGENTS_METABOLISM
 	toxpwr = 50
 
+/datum/reagent/toxin/slp
+	name= "SLP-412"
+	id = "slp"
+	description = "Sleepy-bye toxin."
+	reagent_state = LIQUID
+	color = "#a994ff"
+	metabolization_rate = 0.1
+
+/datum/reagent/toxin/slp/on_mob_life(mob/living/M)
+	M.drowsyness += 10
+	M.Sleeping(60, 0)
+
 /datum/reagent/toxin/botulinum/on_mob_life(mob/living/M)
 	if(prob(5))
 		M.losebreath += 10
