@@ -487,24 +487,6 @@
 		M.adjustToxLoss(2*REM, 0)
 	return ..()
 
-/datum/reagent/toxin/ricin
-	//note to self or other coders; add vomit effects to ricin, and make it do no damage unti 10-15 cycles.
-	name = "Ricin"
-	id = "ricin"
-	description = "An infamous poison known for its use in assassination."
-	reagent_state = LIQUID
-	color = "#fff"
-	metabolization_rate = 0.25
-
-/datum/reagent/toxin/ricin/on_mob_life(mob/living/M)
-	if(current_cycle >= 10)
-		if(prob(5))
-			M.losebreath += 5
-		if(prob(8))
-			to_chat(M, "You feel horrendously weak!")
-			M.Stun(40, 0)
-			M.adjustToxLoss(10*REM, 0)
-		return ..()
 
 /datum/reagent/toxin/botulinum
 	name = "Botulinum Toxin" //based on real-life toxin
