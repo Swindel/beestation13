@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1526099509
-DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__HELPERS code\_globalvars code\_globalvars\lists code\game code\game\machinery code\game\objects code\game\objects\items code\game\objects\items\devices code\game\objects\items\implants code\modules code\modules\antagonists code\modules\antagonists\clockcult code\modules\antagonists\clockcult\clock_items code\modules\awaymissions code\modules\awaymissions\mission_code code\modules\reagents code\modules\reagents\chemistry code\modules\reagents\chemistry\reagents code\modules\reagents\chemistry\recipes interface 
+LAST_COMPILE_TIME: 1526140974
+DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__HELPERS code\_globalvars code\_globalvars\lists code\game code\game\machinery code\game\objects code\game\objects\items code\game\objects\items\devices code\game\objects\items\implants code\modules code\modules\awaymissions code\modules\awaymissions\mission_code code\modules\reagents code\modules\reagents\chemistry code\modules\reagents\chemistry\reagents code\modules\reagents\chemistry\recipes interface 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1423
-WINDOW: interface\menu.dm;_maps\boxstation.dm;code\__HELPERS\areas.dm;code\modules\reagents\chemistry\recipes\toxins.dm;code\modules\reagents\chemistry\reagents\drink_reagents.dm;code\modules\reagents\chemistry\reagents\toxin_reagents.dm;_maps\map_files\BoxStation\BoxStation.dmm;code\modules\antagonists\clockcult\clock_items\clock_components.dm;code\modules\awaymissions\mission_code\challenge.dm
-FILE: code\modules\awaymissions\mission_code\challenge.dm
+WINDOW: interface\menu.dm;_maps\boxstation.dm;code\__HELPERS\areas.dm;code\modules\reagents\chemistry\recipes\toxins.dm;code\modules\reagents\chemistry\reagents\drink_reagents.dm;code\modules\reagents\chemistry\reagents\toxin_reagents.dm;code\modules\awaymissions\mission_code\challenge.dm;code\game\objects\items\manuals.dm
+FILE: code\game\objects\items\manuals.dm
 */
 // END_INTERNALS
