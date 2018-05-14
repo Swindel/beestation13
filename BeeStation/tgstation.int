@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1526273336
-DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__HELPERS code\_globalvars code\_globalvars\lists code\game code\game\machinery code\game\machinery\computer code\game\objects code\game\objects\items code\game\objects\items\devices code\modules code\modules\reagents code\modules\reagents\chemistry code\modules\reagents\chemistry\reagents code\modules\reagents\chemistry\recipes interface 
+LAST_COMPILE_TIME: 1526306922
+DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__HELPERS code\_globalvars code\_globalvars\lists code\game code\game\machinery code\game\machinery\computer code\game\objects code\game\objects\items code\game\objects\items\devices code\modules code\modules\reagents code\modules\reagents\chemistry code\modules\reagents\chemistry\reagents code\modules\reagents\chemistry\recipes code\modules\research code\modules\research\xenobiology code\modules\shuttle interface 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1423
-WINDOW: interface\menu.dm;_maps\boxstation.dm;code\__HELPERS\areas.dm;code\modules\reagents\chemistry\recipes\toxins.dm;code\modules\reagents\chemistry\reagents\drink_reagents.dm;code\modules\reagents\chemistry\reagents\toxin_reagents.dm;code\game\objects\items\cards_ids.dm;_maps\map_files\BoxStation\BoxStation.dmm
+WINDOW: interface\menu.dm;_maps\boxstation.dm;code\__HELPERS\areas.dm;code\modules\reagents\chemistry\recipes\toxins.dm;code\modules\reagents\chemistry\reagents\drink_reagents.dm;code\modules\reagents\chemistry\reagents\toxin_reagents.dm;_maps\map_files\BoxStation\BoxStation.dmm;code\modules\reagents\chemistry\recipes\slime_extracts.dm;code\modules\research\xenobiology\xenobiology.dm;code\modules\research\xenobiology\xenobio_camera.dm;code\modules\shuttle\manipulator.dm
 FILE: _maps\map_files\BoxStation\BoxStation.dmm
 */
 // END_INTERNALS
