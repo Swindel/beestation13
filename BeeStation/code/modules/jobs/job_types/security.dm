@@ -19,6 +19,7 @@ Head of Security
 	supervisors = "the captain"
 	selection_color = "#ffdddd"
 	req_admin_notify = 1
+	req_space_law = 1
 	minimal_player_age = 14
 	exp_requirements = 300
 	exp_type = EXP_TYPE_CREW
@@ -72,6 +73,7 @@ Warden
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
+	req_space_law = 1
 	supervisors = "the head of security"
 	selection_color = "#ffeeee"
 	minimal_player_age = 7
@@ -125,6 +127,7 @@ Detective
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
+	req_space_law = 1
 	supervisors = "the head of security"
 	selection_color = "#ffeeee"
 	minimal_player_age = 7
@@ -180,6 +183,7 @@ Security Officer
 	selection_color = "#ffeeee"
 	minimal_player_age = 7
 	exp_requirements = 300
+	req_space_law = 1
 	exp_type = EXP_TYPE_CREW
 	antag_rep = 20
 

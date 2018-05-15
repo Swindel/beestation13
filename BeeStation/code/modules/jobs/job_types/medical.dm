@@ -10,6 +10,7 @@ Chief Medical Officer
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
+	req_space_law = 1
 	supervisors = "the captain"
 	selection_color = "#ffddf0"
 	req_admin_notify = 1
