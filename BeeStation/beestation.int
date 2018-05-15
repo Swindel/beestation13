@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1526331452
-DIR: code code\controllers code\controllers\subsystem code\game code\game\machinery code\game\machinery\computer code\game\objects code\game\objects\structures code\game\objects\structures\crates_lockers code\game\objects\structures\crates_lockers\closets code\game\objects\structures\crates_lockers\closets\secure code\modules code\modules\clothing code\modules\clothing\under code\modules\clothing\under\jobs code\modules\jobs code\modules\jobs\job_types code\modules\uplink icons icons\obj icons\obj\doors icons\obj\doors\airlocks icons\obj\doors\airlocks\station 
+LAST_COMPILE_TIME: 1526401070
+DIR: code code\controllers code\controllers\subsystem code\game code\game\machinery code\game\machinery\computer code\game\objects code\game\objects\structures code\game\objects\structures\crates_lockers code\game\objects\structures\crates_lockers\closets code\game\objects\structures\crates_lockers\closets\secure code\modules code\modules\clothing code\modules\clothing\under code\modules\clothing\under\jobs code\modules\jobs code\modules\jobs\job_types code\modules\language code\modules\uplink icons icons\obj icons\obj\doors icons\obj\doors\airlocks icons\obj\doors\airlocks\station 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1423
-WINDOW: icons\obj\doors\airlocks\station\security.dmi;code\game\machinery\computer\security.dm;code\game\objects\structures\crates_lockers\closets\secure\security.dm;code\modules\clothing\under\jobs\security.dm;code\modules\jobs\job_types\security.dm;code\modules\uplink\uplink_items.dm;code\controllers\subsystem\job.dm;code\modules\jobs\job_types\captain.dm;code\modules\jobs\job_types\civilian.dm;code\modules\jobs\job_types\engineering.dm;code\modules\jobs\job_types\medical.dm;code\modules\jobs\job_types\science.dm;code\modules\jobs\jobs.dm;code\modules\jobs\access.dm;code\modules\jobs\map_changes\map_changes.dm;code\modules\jobs\job_types\job.dm;code\modules\jobs\job_types\silicon.dm
-FILE: code\modules\jobs\job_types\job.dm
+WINDOW: icons\obj\doors\airlocks\station\security.dmi;code\game\machinery\computer\security.dm;code\game\objects\structures\crates_lockers\closets\secure\security.dm;code\modules\clothing\under\jobs\security.dm;code\modules\jobs\job_types\security.dm;code\modules\uplink\uplink_items.dm;code\controllers\subsystem\job.dm;code\modules\jobs\job_types\captain.dm;code\modules\jobs\job_types\civilian.dm;code\modules\jobs\job_types\engineering.dm;code\modules\jobs\job_types\medical.dm;code\modules\jobs\job_types\science.dm;code\modules\jobs\jobs.dm;code\modules\jobs\access.dm;code\modules\jobs\map_changes\map_changes.dm;code\modules\jobs\job_types\job.dm;code\modules\jobs\job_types\silicon.dm;code\modules\language\codespeak.dm
+FILE: code\controllers\subsystem\job.dm
 */
 // END_INTERNALS
