@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 LAST_COMPILE_TIME: 1526592670
-DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\RandomRuins _maps\RandomRuins\SpaceRuins _maps\RandomZLevels code code\controllers code\controllers\subsystem code\datums code\datums\ruins code\game code\game\area code\game\area\areas code\game\area\areas\ruins code\game\machinery code\game\objects code\game\objects\items code\modules code\modules\power code\modules\power\supermatter goon goon\icons goon\icons\obj 
+DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\RandomRuins _maps\RandomRuins\SpaceRuins _maps\RandomZLevels code code\controllers code\controllers\subsystem code\datums code\datums\martial code\datums\ruins code\game code\game\area code\game\area\areas icons icons\obj sound sound\weapons 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1424
-WINDOW: goon\icons\obj\goon_terminals.dmi;_maps\map_files\BoxStation\BoxStation.dmm;code\game\machinery\transformer.dm;code\game\objects\items\cigs_lighters.dm;code\modules\power\supermatter\supermatter.dm
-FILE: code\modules\power\supermatter\supermatter.dm
+WINDOW: icons\obj\modular_tablet.dmi;icons\obj\module.dmi;icons\obj\monitors.dmi;icons\obj\nuke_tools.dmi;icons\obj\projectiles.dmi;icons\obj\projectiles_impact.dmi;icons\obj\projectiles_muzzle.dmi;icons\obj\radio.dmi;icons\obj\musician.dmi;icons\obj\lollipop.dmi;icons\obj\lighting.dmi;icons\obj\iv_drip.dmi;icons\obj\items_and_weapons.dmi;icons\obj\magic_terror.dmi;icons\obj\rollerbed.dmi;icons\obj\scp.dmi;icons\obj\library.dmi;code\datums\martial\cqc.dm
+FILE: code\datums\martial\cqc.dm
 */
 // END_INTERNALS
