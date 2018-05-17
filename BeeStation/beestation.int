@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1526475196
-DIR: _maps _maps\RandomRuins _maps\RandomRuins\SpaceRuins _maps\RandomZLevels code code\controllers code\controllers\subsystem code\datums code\datums\ruins code\game code\game\area code\game\area\areas code\game\area\areas\ruins code\game\machinery code\game\mecha code\game\mecha\equipment code\game\mecha\equipment\weapons code\modules code\modules\cargo code\modules\cargo\exports code\modules\clothing code\modules\clothing\suits code\modules\vending icons icons\obj icons\obj\clothing 
+LAST_COMPILE_TIME: 1526590027
+DIR: _maps _maps\RandomRuins _maps\RandomRuins\SpaceRuins _maps\RandomZLevels code code\controllers code\controllers\subsystem code\datums code\datums\ruins code\game code\game\area code\game\area\areas code\game\area\areas\ruins code\game\machinery goon goon\icons goon\icons\obj 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 512.1423
-WINDOW: code\controllers\subsystem\job.dm;code\game\mecha\equipment\weapons\weapons.dm;code\modules\cargo\exports\gear.dm;code\game\world.dm;code\controllers\subsystem\tgui.dm;code\controllers\subsystem\sun.dm;code\controllers\subsystem\vote.dm;icons\obj\clothing\suits.dmi;icons\obj\clothing\masks.dmi;code\modules\clothing\suits\miscellaneous.dm;code\modules\vending\cigarette.dm;code\modules\vending\medical.dm
-FILE: code\modules\vending\medical.dm
+LAST_COMPILE_VERSION: 512.1424
+WINDOW: goon\icons\obj\goon_terminals.dmi
+FILE: goon\icons\obj\goon_terminals.dmi
 */
 // END_INTERNALS
