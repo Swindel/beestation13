@@ -55,6 +55,11 @@
 	desc = "A small bottle of cyanide. Bitter almonds?"
 	list_reagents = list("cyanide" = 30)
 
+/obj/item/reagent_containers/glass/bottle/botulinum
+	name = "botulinum toxin bottle"
+	desc = "A small bottle of Botulinum Toxin, be careful with this."
+	list_reagents = list("botulinum" = 30)
+
 /obj/item/reagent_containers/glass/bottle/spewium
 	name = "spewium bottle"
 	desc = "A small bottle of spewium."
@@ -66,6 +71,11 @@
 	icon = 'icons/obj/chemical.dmi'
 	list_reagents = list("morphine" = 30)
 
+/obj/item/reagent_containers/glass/bottle/hypothermite
+	name = "hypothermite bottle"
+	desc = "A small bottle of hypothermite."
+	list_reagents = list("hypothermite" = 30)
+
 /obj/item/reagent_containers/glass/bottle/chloralhydrate
 	name = "Chloral Hydrate Bottle"
 	desc = "A small bottle of Choral Hydrate. Mickey's Favorite!"
@@ -74,7 +84,7 @@
 
 /obj/item/reagent_containers/glass/bottle/charcoal
 	name = "charcoal bottle"
-	desc = "A small bottle of charcoal, which removes toxins and other chemicals from the bloodstream."
+	desc = "A small bottle which removes toxins and other chemicals from the bloodstream."
 	list_reagents = list("charcoal" = 30)
 
 /obj/item/reagent_containers/glass/bottle/mutagen

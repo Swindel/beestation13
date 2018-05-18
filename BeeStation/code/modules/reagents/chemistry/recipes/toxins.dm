@@ -20,6 +20,14 @@
 	required_reagents = list("oil" = 1, "ammonia" = 1, "oxygen" = 1)
 	required_temp = 380
 
+/datum/chemical_reaction/botulinum  //secret, keep hush hush, unless you see this on github and decide to leak it
+	name = "Botulinum Toxin"
+	id = "botulinum"
+	results = list("botulinum" = 1)
+	required_reagents = list("water" = 15, "mutagenvirusfood" = 15, "cyanide" = 10, "skewium" = 10, "rotatium" = 10)
+	required_temp = 600
+	mix_message = "The mixture condenses into a bright green liquid."
+
 /datum/chemical_reaction/itching_powder
 	name = "Itching Powder"
 	id = "itching_powder"

@@ -92,6 +92,15 @@
 		M.adjustToxLoss(1, 0)
 		. = 1
 	..()
+/datum/reagent/medicine/hypothermite
+	name="Hypthermite"
+	id = "hypothermite"
+	description = "Reduces temperature of the body, allowing for cryoxadone to work on the go,"
+	color = "#8533ff"
+
+datum/reagent/medicine/hypothermite/overdose_process(mob/living/M)
+	to_chat(M, "<span class='userdanger'>You feel your body tensing up...</span>")
+	M.adjust_bodytemperature(-75)
 
 /datum/reagent/medicine/synaphydramine
 	name = "Diphen-Synaptizine"
@@ -140,6 +149,8 @@
 		. = 1
 	metabolization_rate = REAGENTS_METABOLISM * (0.00001 * (M.bodytemperature ** 2) + 0.5)
 	..()
+
+
 
 /datum/reagent/medicine/clonexadone
 	name = "Clonexadone"

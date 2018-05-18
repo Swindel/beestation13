@@ -897,7 +897,7 @@
     			}
 			</script>
 			<p id='loading'>You start skimming through the manual...</p>
-			<iframe width='100%' height='97%' onload="pageloaded(this)" src="[wikiurl]/[page_link]?printable=yes&remove_links=1" frameborder="0" id="main_frame"></iframe>
+			<iframe width='100%' height='97%' onload="pageloaded(this)" src="[wikiurl]/[page_link]" frameborder="0" id="main_frame"></iframe>
 			</body>
 
 			</html>
@@ -909,21 +909,21 @@
 	icon_state ="chemistrybook"
 	author = "Nanotrasen"
 	title = "Chemistry Textbook"
-	page_link = "Guide_to_chemistry"
+	page_link = "index.php?title=Guide_to_chemistry"
 
 /obj/item/book/manual/wiki/engineering_construction
 	name = "Station Repairs and Construction"
 	icon_state ="bookEngineering"
 	author = "Engineering Encyclopedia"
 	title = "Station Repairs and Construction"
-	page_link = "Guide_to_construction"
+	page_link = "index.php?title=Guide_to_construction"
 
 /obj/item/book/manual/wiki/engineering_guide
 	name = "Engineering Textbook"
 	icon_state ="bookEngineering2"
 	author = "Engineering Encyclopedia"
 	title = "Engineering Textbook"
-	page_link = "Guide_to_engineering"
+	page_link = "index.php?title=Guide_to_engineering"
 
 /obj/item/book/manual/wiki/security_space_law
 	name = "Space Law"
@@ -931,7 +931,7 @@
 	icon_state = "bookSpaceLaw"
 	author = "Nanotrasen"
 	title = "Space Law"
-	page_link = "Space_Law"
+	page_link = "index.php?title=Space_Law"
 
 /obj/item/book/manual/wiki/security_space_law/suicide_act(mob/living/user)
 	user.visible_message("<span class='suicide'>[user] pretends to read \the [src] intently... then promptly dies of laughter!</span>")
@@ -942,21 +942,21 @@
 	icon_state = "bookInfections"
 	author = "Infections Encyclopedia"
 	title = "Infections - Making your own pandemic!"
-	page_link = "Infections"
+	page_link = "index.php?title=Infections"
 
 /obj/item/book/manual/wiki/telescience
 	name = "Teleportation Science - Bluespace for dummies!"
 	icon_state = "book7"
 	author = "University of Bluespace"
 	title = "Teleportation Science - Bluespace for dummies!"
-	page_link = "Guide_to_telescience"
+	page_link = "index.php?title=Guide_to_telescience"
 
 /obj/item/book/manual/wiki/engineering_hacking
 	name = "Hacking"
 	icon_state ="bookHacking"
 	author = "Engineering Encyclopedia"
 	title = "Hacking"
-	page_link = "Hacking"
+	page_link = "index.php?title=Hacking"
 
 ///Reusable books that grant actions (knowledge is power)
 /obj/item/book/action_granting

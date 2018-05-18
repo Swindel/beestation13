@@ -68,6 +68,12 @@
 	suit_store = /obj/item/gun/energy/laser/redtag
 	backpack_contents = list(/obj/item/storage/box=1)
 
+/datum/outfit/restrained //meant for when an admin has to restrain someone.
+	name = "RESTRAINED"
+	shoes = /obj/item/restraints/legcuffs
+	mask = /obj/item/clothing/mask/muzzle
+	suit = /obj/item/clothing/suit/straight_jacket
+
 /datum/outfit/laser_tag/blue
 	name = "Laser Tag Blue"
 	uniform = /obj/item/clothing/under/color/blue

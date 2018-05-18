@@ -235,6 +235,8 @@ GLOBAL_PROTECT(security_mode)
 		if(CONFIG_GET(flag/allow_ai))
 			features += "AI allowed"
 		hostedby = CONFIG_GET(string/hostedby)
+		features += "Newbie Friendly"
+		features += "Medium RP"
 
 	s += "<b>[station_name()]</b>";
 	s += " ("
@@ -243,7 +245,8 @@ GLOBAL_PROTECT(security_mode)
 	s += "</a>"
 	s += "/"
 	s += "<a href=\"https://discord.gg/z9ttAvA\">"
-	s += "Discord
+	s += "Discord"
+	s += "</a>"
 	s += ")"
 
 	var/n = 0

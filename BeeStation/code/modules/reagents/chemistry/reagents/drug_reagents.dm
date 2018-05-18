@@ -26,6 +26,7 @@
 		M.emote(pick("twitch","drool","moan","giggle"))
 	..()
 
+
 /datum/reagent/drug/space_drugs/overdose_start(mob/living/M)
 	to_chat(M, "<span class='userdanger'>You start tripping hard!</span>")
 	M.SendSignal(COMSIG_ADD_MOOD_EVENT, "[id]_overdose", /datum/mood_event/drugs/overdose, name)

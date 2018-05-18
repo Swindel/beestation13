@@ -487,6 +487,37 @@
 		M.adjustToxLoss(2*REM, 0)
 	return ..()
 
+
+/datum/reagent/toxin/botulinum
+	name = "Botulinum Toxin" //based on real-life toxin
+	id = "botulinum"
+	description = "One of the most deadly substances known to man."
+	reagent_state = LIQUID
+	color = "#49ff29" //bright green
+	metabolization_rate = 0.01 * REAGENTS_METABOLISM
+	toxpwr = 50
+
+/datum/reagent/toxin/slp
+	name= "SLP-412"
+	id = "slp"
+	description = "Sleepy-bye toxin."
+	reagent_state = LIQUID
+	color = "#a994ff"
+	metabolization_rate = 0.1
+
+/datum/reagent/toxin/slp/on_mob_life(mob/living/M)
+	M.drowsyness += 10
+	M.Sleeping(60, 0)
+
+/datum/reagent/toxin/botulinum/on_mob_life(mob/living/M)
+	if(prob(5))
+		M.losebreath += 10
+	if(prob(8))
+		to_chat(M, "You feel younger, but your skin feels tighter.")
+		M.Stun(40, 0)
+		M.adjustToxLoss(5*REM, 0)
+	return ..()
+
 /datum/reagent/toxin/bad_food
 	name = "Bad Food"
 	id = "bad_food"

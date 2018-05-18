@@ -1,0 +1,11 @@
+// BEGIN_INTERNALS
+/*
+LAST_COMPILE_TIME: 1526592670
+DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\RandomRuins _maps\RandomRuins\SpaceRuins _maps\RandomZLevels code code\controllers code\controllers\subsystem code\datums code\datums\martial code\datums\ruins code\game code\game\area code\game\objects code\game\objects\items icons icons\obj 
+AUTO_FILE_DIR: OFF
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 512.1424
+WINDOW: icons\obj\modular_tablet.dmi;icons\obj\module.dmi;icons\obj\monitors.dmi;icons\obj\nuke_tools.dmi;icons\obj\projectiles.dmi;icons\obj\projectiles_impact.dmi;icons\obj\projectiles_muzzle.dmi;icons\obj\radio.dmi;icons\obj\musician.dmi;code\datums\martial\cqc.dm;code\game\objects\items\cigs_lighters.dm
+FILE: code\game\objects\items\cigs_lighters.dm
+*/
+// END_INTERNALS

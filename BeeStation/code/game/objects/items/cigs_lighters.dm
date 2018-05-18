@@ -661,7 +661,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	icon_state = null
 	item_state = null
 	w_class = WEIGHT_CLASS_TINY
-	var/chem_volume = 100
+	var/chem_volume = 50 //used to be 100, but an e-cig being as large as a large beaker, nah
 	var/vapetime = 0 //this so it won't puff out clouds every tick
 	var/screw = 0 // kinky
 	var/super = 0 //for the fattest vapes dude.
