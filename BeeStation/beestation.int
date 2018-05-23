@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 LAST_COMPILE_TIME: 1526592670
-DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\RandomRuins _maps\RandomRuins\SpaceRuins _maps\RandomZLevels code code\__DEFINES code\controllers code\controllers\subsystem code\datums code\datums\martial code\datums\ruins code\game code\game\area icons icons\effects 
+DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\map_files\generic _maps\RandomRuins _maps\RandomRuins\SpaceRuins _maps\RandomZLevels code code\__DEFINES code\__HELPERS code\controllers code\controllers\configuration code\controllers\configuration\entries code\controllers\subsystem 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1424
-WINDOW: icons\effects\119x268.dmi
-FILE: icons\effects\119x268.dmi
+WINDOW: _maps\map_files\BoxStation\BoxStation.dmm;code\__DEFINES\traits.dm;code\__HELPERS\game.dm;code\controllers\configuration\entries\general.dm;code\controllers\subsystem\ticker.dm
+FILE: code\controllers\subsystem\ticker.dm
 */
 // END_INTERNALS
