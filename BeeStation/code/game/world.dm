@@ -247,7 +247,6 @@ GLOBAL_PROTECT(security_mode)
 	s += "<a href=\"https://discord.gg/z9ttAvA\">"
 	s += "Discord"
 	s += "</a>"
-	s += ")"
 
 	var/n = 0
 	for (var/mob/M in GLOB.player_list)
@@ -264,6 +263,10 @@ GLOBAL_PROTECT(security_mode)
 
 	if (features)
 		s += ": [jointext(features, ", ")]"
+
+	var/list/hubmessage = file2list("strings/hubmessages.txt")
+	var/msg = pick(hubmessage)
+	s += "\n<b>[html_encode(msg)]</b>"
 
 	status = s
 

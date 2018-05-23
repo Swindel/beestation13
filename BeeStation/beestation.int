@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1526592670
-DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\map_files\generic _maps\RandomRuins _maps\RandomRuins\SpaceRuins _maps\RandomZLevels code code\__DEFINES code\__HELPERS code\controllers code\controllers\configuration code\controllers\configuration\entries code\controllers\subsystem 
+LAST_COMPILE_TIME: 1527105965
+DIR: _maps _maps\map_files _maps\map_files\BoxStation _maps\map_files\generic _maps\RandomRuins _maps\RandomRuins\SpaceRuins _maps\RandomZLevels code code\__DEFINES code\__HELPERS code\controllers code\controllers\configuration code\controllers\configuration\entries code\controllers\subsystem code\game code\modules code\modules\admin code\modules\admin\verbs 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1424
-WINDOW: _maps\map_files\BoxStation\BoxStation.dmm;code\__DEFINES\traits.dm;code\__HELPERS\game.dm;code\controllers\configuration\entries\general.dm;code\controllers\subsystem\ticker.dm
-FILE: code\controllers\subsystem\ticker.dm
+WINDOW: _maps\map_files\BoxStation\BoxStation.dmm;code\__DEFINES\traits.dm;code\__HELPERS\game.dm;code\controllers\configuration\entries\general.dm;code\controllers\subsystem\ticker.dm;code\modules\admin\verbs\randomverbs.dm;code\game\world.dm
+FILE: code\game\world.dm
 */
 // END_INTERNALS
