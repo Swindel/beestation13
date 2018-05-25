@@ -267,7 +267,6 @@ GLOBAL_PROTECT(security_mode)
 	var/list/hubmessage = file2list("strings/hubmessages.txt")
 	var/msg = pick(hubmessage)
 	s += "\n<b>[html_encode(msg)]</b>"
-
 	status = s
 
 /world/proc/update_hub_visibility(new_visibility)
