@@ -35,6 +35,12 @@
 	mission = "Leave no witnesses."
 	polldesc = "an elite Nanotrasen Strike Team"
 
+/datum/ert/centassassin
+	rename_team = "Centcom Assassins"
+	code = "Blue"
+	mission = "Assassinate the Captain."
+	polldesc = "a nanotrasen-dispatched assassin"
+
 /datum/ert/centcom_official
 	code = "Green"
 	teamsize = 1

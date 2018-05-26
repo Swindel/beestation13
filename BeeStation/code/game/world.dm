@@ -261,12 +261,13 @@ GLOBAL_PROTECT(security_mode)
 	if (!host && hostedby)
 		features += "hosted by <b>[hostedby]</b>"
 
+	var/list/hubmessage = file2list("strings/hubmessages.txt")
+	var/msg = pick(hubmessage)
+	features += "<b>[msg]</b>"
+
 	if (features)
 		s += ": [jointext(features, ", ")]"
 
-	var/list/hubmessage = file2list("strings/hubmessages.txt")
-	var/msg = pick(hubmessage)
-	s += "\n<b>[html_encode(msg)]</b>"
 	status = s
 
 /world/proc/update_hub_visibility(new_visibility)
