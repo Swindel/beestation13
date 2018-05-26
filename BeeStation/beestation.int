@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1527312308
-DIR: code code\game 
+LAST_COMPILE_TIME: 1527356182
+DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\datums code\game code\modules code\modules\antagonists code\modules\antagonists\ert code\modules\antagonists\ninja code\modules\clothing code\modules\clothing\outfits 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1424
 WINDOW: _maps\map_files\BoxStation\BoxStation.dmm;code\datums\ert.dm;code\modules\clothing\outfits\standard.dm;code\modules\antagonists\ert\ert.dm;code\modules\antagonists\ninja\ninja.dm;code\game\world.dm
-FILE: code\game\world.dm
+FILE: code\datums\ert.dm
 */
 // END_INTERNALS
