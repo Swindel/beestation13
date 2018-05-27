@@ -36,6 +36,7 @@
 	polldesc = "an elite Nanotrasen Strike Team"
 
 /datum/ert/centassassin
+	leader_role = /datum/antagonist/official
 	rename_team = "Centcom Assassins"
 	code = "Blue"
 	mission = "Assassinate the Captain."

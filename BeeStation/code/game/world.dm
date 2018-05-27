@@ -263,7 +263,7 @@ GLOBAL_PROTECT(security_mode)
 
 	var/list/hubmessage = file2list("strings/hubmessages.txt")
 	var/msg = pick(hubmessage)
-	features += "<b>[msg]</b>"
+	features += msg
 
 	if (features)
 		s += ": [jointext(features, ", ")]"
