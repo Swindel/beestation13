@@ -49,7 +49,7 @@ Captain
 	satchel = /obj/item/storage/backpack/satchel/cap
 	duffelbag = /obj/item/storage/backpack/duffelbag/captain
 
-	implants = list(/obj/item/implant/mindshield)
+	implants = list(/obj/item/implant/mindshield,/obj/item/implant/krav_maga)
 	accessory = /obj/item/clothing/accessory/medal/gold/captain
 
 /*

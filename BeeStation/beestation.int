@@ -1,11 +1,12 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1527391640
-DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\datums code\game code\modules code\modules\admin code\modules\admin\verbs code\modules\antagonists code\modules\antagonists\ert code\modules\antagonists\ninja code\modules\antagonists\official code\modules\clothing code\modules\clothing\outfits 
+MAP_ZOOM: 1.000
+LAST_COMPILE_TIME: 1527714071
+DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__DEFINES code\__HELPERS code\controllers code\controllers\subsystem code\datums code\game code\game\objects code\game\objects\items code\game\objects\items\implants code\modules code\modules\admin code\modules\admin\verbs code\modules\antagonists code\modules\antagonists\ert code\modules\antagonists\ninja code\modules\antagonists\official code\modules\clothing code\modules\clothing\head code\modules\clothing\outfits code\modules\clothing\suits code\modules\clothing\under code\modules\jobs code\modules\jobs\job_types code\modules\surgery config icons icons\obj icons\obj\machines tgui tgui\src tgui\src\interfaces 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 512.1424
-WINDOW: _maps\map_files\BoxStation\BoxStation.dmm;code\datums\ert.dm;code\modules\clothing\outfits\standard.dm;code\modules\antagonists\ert\ert.dm;code\modules\antagonists\ninja\ninja.dm;code\game\world.dm;code\modules\admin\verbs\one_click_antag.dm;code\modules\antagonists\official\official.dm
-FILE: code\game\world.dm
+LAST_COMPILE_VERSION: 512.1425
+WINDOW: _maps\map_files\BoxStation\BoxStation.dmm;code\datums\ert.dm;code\modules\clothing\outfits\standard.dm;code\modules\antagonists\ert\ert.dm;code\modules\antagonists\ninja\ninja.dm;code\game\world.dm;code\modules\admin\verbs\one_click_antag.dm;code\__DEFINES\jobs.dm;code\modules\clothing\head\jobs.dm;code\modules\clothing\suits\jobs.dm;code\modules\jobs\jobs.dm;code\modules\jobs\job_types\job.dm;code\__HELPERS\names.dm;code\__HELPERS\priority_announce.dm;code\controllers\subsystem\communications.dm;code\controllers\subsystem\ticker.dm;code\controllers\subsystem\traumas.dm;code\datums\dog_fashion.dm;code\datums\holocall.dm;code\modules\jobs\job_types\captain.dm;code\game\objects\items\implants\implant.dm;code\game\objects\items\implants\implant_krav_maga.dm
+FILE: code\game\objects\items\implants\implant_krav_maga.dm
 */
 // END_INTERNALS
