@@ -207,7 +207,6 @@
 	sec_briefcase.handle_item_insertion(new /obj/item/gun/ballistic/revolver/mateba,1)
 	sec_briefcase.handle_item_insertion(new /obj/item/ammo_box/a357,1)
 	sec_briefcase.handle_item_insertion(new /obj/item/grenade/plastic/x4,1)
-	sec_briefcase.handle_item_insertion(new /obj/item/sleeping_carp_scroll, 1)
 
 	var/obj/item/device/pda/heads/pda = H.belt
 	pda.owner = H.real_name
@@ -216,7 +215,7 @@
 
 	var/obj/item/card/id/syndicate/W = H.wear_id
 	W.access = get_all_accesses()
-	W.assignment = "Centcomm Assassin"
+	W.assignment = "Centcom Assassin"
 	W.registered_name = H.real_name
 	W.update_label(H.real_name)
 
@@ -237,7 +236,6 @@
 	sec_briefcase.handle_item_insertion(new /obj/item/gun/ballistic/revolver/mateba,1)
 	sec_briefcase.handle_item_insertion(new /obj/item/ammo_box/a357,1)
 	sec_briefcase.handle_item_insertion(new /obj/item/grenade/plastic/x4,1)
-	sec_briefcase.handle_item_insertion(new /obj/item/sleeping_carp_scroll, 1)
 	sec_briefcase.handle_item_insertion(new /obj/item/cqc_manual, 1)
 
 	var/obj/item/device/pda/heads/pda = H.belt
