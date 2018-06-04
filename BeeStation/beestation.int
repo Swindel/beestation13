@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1527993224
-DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__DEFINES code\__HELPERS code\_onclick code\controllers code\controllers\subsystem code\datums code\game code\game\objects code\game\objects\items code\game\objects\items\implants code\game\objects\structures code\modules code\modules\admin code\modules\admin\verbs code\modules\antagonists code\modules\antagonists\centassassin code\modules\antagonists\clockcult code\modules\antagonists\clockcult\clock_structures code\modules\antagonists\cult code\modules\antagonists\ert code\modules\antagonists\official code\modules\awaymissions code\modules\client code\modules\client\verbs code\modules\clothing code\modules\clothing\outfits code\modules\events code\modules\events\wizard code\modules\mob code\modules\mob\living code\modules\mob\living\carbon code\modules\mob\living\carbon\monkey code\modules\mob\living\simple_animal code\modules\mob\living\simple_animal\friendly code\modules\projectiles icons icons\minimaps icons\mob icons\obj 
+LAST_COMPILE_TIME: 1528087108
+DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__DEFINES code\__HELPERS code\_onclick code\controllers code\controllers\subsystem code\datums code\game code\game\objects code\game\objects\items code\game\objects\items\implants code\modules code\modules\admin code\modules\admin\verbs code\modules\antagonists code\modules\antagonists\centassassin code\modules\antagonists\ert code\modules\antagonists\official icons 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1426
-WINDOW: code\__DEFINES\profile.dm;code\datums\ert.dm;code\modules\admin\verbs\one_click_antag.dm;code\modules\antagonists\official\official.dm;code\modules\antagonists\centassassin\centassassin.dm;code\modules\antagonists\ert\ert.dm;code\modules\clothing\outfits\standard.dm;_maps\map_files\BoxStation\BoxStation.dmm;code\modules\mob\living\simple_animal\friendly\pet.dm;code\modules\mob\living\carbon\monkey\punpun.dm;code\_onclick\observer.dm;code\modules\awaymissions\gateway.dm;code\modules\antagonists\clockcult\clock_structures\ark_of_the_clockwork_justicar.dm;code\modules\antagonists\cult\cult_structures.dm;code\modules\client\verbs\ooc.dm;code\modules\client\verbs\suicide.dm
-FILE: code\modules\client\verbs\suicide.dm
+WINDOW: code\__DEFINES\profile.dm;code\datums\ert.dm;code\modules\admin\verbs\one_click_antag.dm;code\modules\antagonists\official\official.dm;code\modules\antagonists\centassassin\centassassin.dm;code\modules\antagonists\ert\ert.dm;_maps\map_files\BoxStation\BoxStation.dmm;icons\reagentname_bg.png
+FILE: icons\reagentname_bg.png
 */
 // END_INTERNALS

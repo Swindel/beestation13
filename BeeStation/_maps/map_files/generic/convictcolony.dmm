@@ -1,0 +1,64 @@
+"a" = (/turf/closed/indestructible/rock,/area/space)
+"b" = (/turf/open/floor/grass,/area/space)
+"c" = (/turf/closed/wall,/area/space)
+"d" = (/obj/structure/bed,/obj/item/bedsheet,/turf/open/floor/plasteel,/area/space)
+"e" = (/turf/open/floor/plasteel,/area/space)
+"f" = (/obj/structure/closet/wardrobe,/turf/open/floor/plasteel,/area/space)
+"g" = (/obj/machinery/door/airlock,/turf/open/floor/plasteel,/area/space)
+"h" = (/obj/machinery/vending/sustenance,/turf/open/floor/plasteel,/area/space)
+"i" = (/obj/machinery/vending/cola,/turf/open/floor/plasteel,/area/space)
+"j" = (/obj/structure/table,/turf/open/floor/plasteel,/area/space)
+"k" = (/obj/structure/chair,/turf/open/floor/plasteel,/area/space)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccca
+abbbbbbbbbbbbbbbcdefcdefcdefcdefcdefcdefcdefcdefca
+abbbbbbbbbbbbbbbceeeceeeceeeceeeceeeceeeceeeceeeca
+abbbbbbbbbbbbbbbceeeceeeceeeceeeceeeceeeceeeceeeca
+abbbbbbbbbbbbbbbccgcccgcccgcccgcccgcccgcccgcccgcca
+abbbbbbbbbbbbbbbceeeeeeeeeeeeeeeceeeeeeeeeeeeeeeca
+abbbbbbbbbbbbbbbceeeeeeeeeeeeeeegeeeeeeeeeeeeeeeca
+abbbbbbbbbbbbbbbceeeeeeeeeeeeeeeceeeeeeeeeeeeeeeca
+acccccccccccccccccccgcccccccgcccccccgcccccccccgcca
+achihihihihihihcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+aceeeeeeeeeeeeecbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acekkeekkeekkeecbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acejjeejjeejjeecbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acejjeejjeejjeecbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+aceeeeeeeeeeeeegbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+aceeeeeeeeeeeeecbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acekkeekkeekkeecbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acejjeejjeejjeecbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acejjeejjeejjeecbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+aceeeeeeeeeeeeecbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acccccccccccccccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}
