@@ -1,5 +1,5 @@
 #define RESTART_COUNTER_PATH "data/round_counter.txt"
-
+var/list/donators = world.file2list("config/donators.txt")
 GLOBAL_VAR(security_mode)
 GLOBAL_VAR(restart_counter)
 GLOBAL_PROTECT(security_mode)

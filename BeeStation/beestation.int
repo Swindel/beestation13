@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1528087108
-DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__DEFINES code\__HELPERS code\_onclick code\controllers code\controllers\subsystem code\datums code\game code\game\objects code\game\objects\items code\game\objects\items\implants code\modules code\modules\admin code\modules\admin\verbs code\modules\antagonists code\modules\antagonists\centassassin code\modules\antagonists\ert code\modules\antagonists\official icons 
+LAST_COMPILE_TIME: 1528154954
+DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\__DEFINES code\__HELPERS code\_onclick code\controllers code\controllers\subsystem code\datums code\game code\game\objects code\game\objects\items code\game\objects\items\implants code\modules code\modules\admin code\modules\admin\verbs code\modules\antagonists code\modules\antagonists\centassassin code\modules\antagonists\ert code\modules\antagonists\official code\modules\client code\modules\client\verbs icons 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1426
-WINDOW: code\__DEFINES\profile.dm;code\datums\ert.dm;code\modules\admin\verbs\one_click_antag.dm;code\modules\antagonists\official\official.dm;code\modules\antagonists\centassassin\centassassin.dm;code\modules\antagonists\ert\ert.dm;_maps\map_files\BoxStation\BoxStation.dmm;icons\reagentname_bg.png
-FILE: icons\reagentname_bg.png
+WINDOW: code\__DEFINES\profile.dm;code\datums\ert.dm;code\modules\admin\verbs\one_click_antag.dm;code\modules\antagonists\official\official.dm;code\modules\antagonists\centassassin\centassassin.dm;code\modules\antagonists\ert\ert.dm;icons\reagentname_bg.png;code\modules\client\verbs\ooc.dm
+FILE: code\modules\client\verbs\ooc.dm
 */
 // END_INTERNALS
