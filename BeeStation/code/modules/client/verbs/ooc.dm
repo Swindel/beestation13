@@ -53,11 +53,12 @@
 	mob.log_message("[key]: [raw_msg]", INDIVIDUAL_OOC_LOG)
 
 	var/keyname = key
-	if(prefs.unlock_content)
-		if(prefs.toggles & MEMBER_PUBLIC)
-			keyname = "<font color='[prefs.ooccolor ? prefs.ooccolor : GLOB.normal_ooc_colour]'>[icon2html('icons/member_content.dmi', world, "blag")][keyname]</font>"
+	//because i'm greedy as hell, if you're a BYOND donor, and a server donor, it shows the server donor instead.
 	if(key in donators)
 		keyname = "<font color='rgba(184, 177, 0, 1)'><span class='ooc'>[icon2html('config/donator_image/donator.dmi', world, "blag")][key]</font>"
+	else if(prefs.unlock_content)
+		if(prefs.toggles & MEMBER_PUBLIC)
+			keyname = "<font color='[prefs.ooccolor ? prefs.ooccolor : GLOB.normal_ooc_colour]'>[icon2html('icons/member_content.dmi', world, "blag")][keyname]</font>"
 	for(var/client/C in GLOB.clients)
 		if(C.prefs.chat_toggles & CHAT_OOC)
 			if(holder)
