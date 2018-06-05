@@ -219,6 +219,9 @@ CHECK_RANDOMIZER
 ## Github address
 # GITHUBURL https://www.github.com/tgstation/tgstation
 
+## Donation address
+# DONATEURL http://example.com/
+
 ## Github repo id
 ##This can be found by going to https://api.github.com/users/<user name here>/repos
 ##Or https://api.github.com/orgs/<org name here>/repos if the repo owner is an organization

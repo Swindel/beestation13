@@ -53,6 +53,19 @@
 		to_chat(src, "<span class='danger'>The Github URL is not set in the server configuration.</span>")
 	return
 
+/client/verb/donate()
+	set name = "donate"
+	set desc = "Donate"
+	set category = "OOC"
+	set hidden = 1
+	var/donateurl = CONFIG_GET(string/donateurl)
+	if(donateurl)
+		if(tgalert("This will open the Donation page in your browser. Are you sure?",,"Yes","No")!="Yes")
+			return
+		src << link(donateurl)
+	else
+		to_chat(src, "<span class='danger'>The Donation URL is not set in the server configuration.</span>")
+	return
 /client/verb/reportissue()
 	set name = "report-issue"
 	set desc = "Report an issue"
