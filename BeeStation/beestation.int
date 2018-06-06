@@ -1,12 +1,9 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1528304084
-DIR: code code\__DEFINES code\__HELPERS code\_globalvars code\_onclick code\_onclick\hud code\controllers code\controllers\configuration code\controllers\configuration\entries code\controllers\subsystem code\datums code\datums\diseases icons icons\mob 
+LAST_COMPILE_TIME: 1528313750
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1426
-WINDOW: icons\mob\screen_gen.dmi
-FILE: icons\mob\screen_gen.dmi
 */
 // END_INTERNALS
