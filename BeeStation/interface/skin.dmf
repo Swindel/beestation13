@@ -169,7 +169,7 @@ window "infowindow"
 	elem "changelog"
 		type = BUTTON
 		pos = 16,5
-		size = 104x20
+		size = 85x20
 		anchor1 = 3,0
 		anchor2 = 19,0
 		saved-params = "is-checked"
@@ -177,8 +177,8 @@ window "infowindow"
 		command = "changelog"
 	elem "rules"
 		type = BUTTON
-		pos = 120,5
-		size = 100x20
+		pos = 101,5
+		size = 85x20
 		anchor1 = 19,0
 		anchor2 = 34,0
 		saved-params = "is-checked"
@@ -186,8 +186,8 @@ window "infowindow"
 		command = "rules"
 	elem "wiki"
 		type = BUTTON
-		pos = 220,5
-		size = 100x20
+		pos = 186,5
+		size = 85x20
 		anchor1 = 34,0
 		anchor2 = 50,0
 		saved-params = "is-checked"
@@ -195,8 +195,8 @@ window "infowindow"
 		command = "wiki"
 	elem "forum"
 		type = BUTTON
-		pos = 320,5
-		size = 100x20
+		pos = 271,5
+		size = 85x20
 		anchor1 = 50,0
 		anchor2 = 66,0
 		saved-params = "is-checked"
@@ -204,22 +204,33 @@ window "infowindow"
 		command = "forum"
 	elem "github"
 		type = BUTTON
-		pos = 420,5
-		size = 100x20
+		pos = 356,5
+		size = 85x20
 		anchor1 = 66,0
 		anchor2 = 81,0
 		saved-params = "is-checked"
 		text = "Github"
 		command = "github"
+		
 	elem "report-issue"
 		type = BUTTON
-		pos = 520,5
-		size = 100x20
+		pos = 441,5
+		size = 85x20
 		anchor1 = 81,0
 		anchor2 = 97,0
 		saved-params = "is-checked"
 		text = "Report Issue"
 		command = "report-issue"
+
+	elem "donate"
+		type = BUTTON
+		pos = 526,5
+		size = 85x20
+		anchor1 = 81,0
+		anchor2 = 97,0
+		saved-params = "is-checked"
+		text = "Donate"
+		command = "donate"
 
 window "outputwindow"
 	elem "outputwindow"
