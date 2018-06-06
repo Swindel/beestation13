@@ -171,7 +171,7 @@ window "infowindow"
 		pos = 16,5
 		size = 85x20
 		anchor1 = 3,0
-		anchor2 = 19,0
+		anchor2 = 17,0
 		saved-params = "is-checked"
 		text = "Changelog"
 		command = "changelog"
@@ -179,8 +179,8 @@ window "infowindow"
 		type = BUTTON
 		pos = 101,5
 		size = 85x20
-		anchor1 = 19,0
-		anchor2 = 34,0
+		anchor1 = 17,0
+		anchor2 = 31,0
 		saved-params = "is-checked"
 		text = "Rules"
 		command = "rules"
@@ -188,8 +188,8 @@ window "infowindow"
 		type = BUTTON
 		pos = 186,5
 		size = 85x20
-		anchor1 = 34,0
-		anchor2 = 50,0
+		anchor1 = 31,0
+		anchor2 = 45,0
 		saved-params = "is-checked"
 		text = "Wiki"
 		command = "wiki"
@@ -197,8 +197,8 @@ window "infowindow"
 		type = BUTTON
 		pos = 271,5
 		size = 85x20
-		anchor1 = 50,0
-		anchor2 = 66,0
+		anchor1 = 45,0
+		anchor2 = 59,0
 		saved-params = "is-checked"
 		text = "Forum"
 		command = "forum"
@@ -206,8 +206,8 @@ window "infowindow"
 		type = BUTTON
 		pos = 356,5
 		size = 85x20
-		anchor1 = 66,0
-		anchor2 = 81,0
+		anchor1 = 59,0
+		anchor2 = 73,0
 		saved-params = "is-checked"
 		text = "Github"
 		command = "github"
@@ -216,8 +216,8 @@ window "infowindow"
 		type = BUTTON
 		pos = 441,5
 		size = 85x20
-		anchor1 = 81,0
-		anchor2 = 97,0
+		anchor1 = 73,0
+		anchor2 = 87,0
 		saved-params = "is-checked"
 		text = "Report Issue"
 		command = "report-issue"
@@ -226,8 +226,8 @@ window "infowindow"
 		type = BUTTON
 		pos = 526,5
 		size = 85x20
-		anchor1 = 81,0
-		anchor2 = 97,0
+		anchor1 = 87,0
+		anchor2 = 100,0
 		saved-params = "is-checked"
 		text = "Donate"
 		command = "donate"
