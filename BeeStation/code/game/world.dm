@@ -1,5 +1,12 @@
 #define RESTART_COUNTER_PATH "data/round_counter.txt"
+//load donor files.
 var/list/donators = world.file2list("config/donators.txt")
+var/list/diamonddonators = world.file2list("config/diamonddonators.txt")
+
+//load donor colors.
+//var/string/donorcolor = CONFIG_GET(string/donatecolor)
+//var/string/diamonddonorcolor = CONFIG_GET(string/diamonddonatecolor)
+
 GLOBAL_VAR(security_mode)
 GLOBAL_VAR(restart_counter)
 GLOBAL_PROTECT(security_mode)

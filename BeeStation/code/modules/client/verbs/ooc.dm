@@ -1,3 +1,4 @@
+
 /client/verb/ooc(msg as text)
 	set name = "OOC" //Gave this shit a shorter name so you only have to time out "ooc" rather than "ooc message" to use it --NeoFite
 	set category = "OOC"
@@ -53,9 +54,13 @@
 	mob.log_message("[key]: [raw_msg]", INDIVIDUAL_OOC_LOG)
 
 	var/keyname = key
+
 	//because i'm greedy as hell, if you're a BYOND donor, and a server donor, it shows the server donor instead.
-	if(key in donators)
-		keyname = "<font color='rgba(184, 177, 0, 1)'><span class='ooc'>[icon2html('config/donator_image/donator.dmi', world, "blag")][key]</font>"
+	//config gets may cause lag in the future, possibly move to beginning of file
+	if(key in diamonddonators)
+		keyname = "<font color='[CONFIG_GET(string/diamonddonatecolor)]'><span class='ooc'>[icon2html('config/donator_image/diamond.dmi', world)][key]</font>"
+	else if(key in donators)
+		keyname = "<font color='[CONFIG_GET(string/donatecolor)]'><span class='ooc'>[icon2html('config/donator_image/donator.dmi', world, "blag")][key]</font>"
 	else if(prefs.unlock_content)
 		if(prefs.toggles & MEMBER_PUBLIC)
 			keyname = "<font color='[prefs.ooccolor ? prefs.ooccolor : GLOB.normal_ooc_colour]'>[icon2html('icons/member_content.dmi', world, "blag")][keyname]</font>"

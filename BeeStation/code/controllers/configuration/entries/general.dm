@@ -165,6 +165,7 @@
 /datum/config_entry/string/wikiurl
 	config_entry_value = "http://www.tgstation13.org/wiki"
 
+
 /datum/config_entry/string/forumurl
 	config_entry_value = "http://tgstation13.org/phpBB/index.php"
 
@@ -180,6 +181,12 @@
 /datum/config_entry/number/githubrepoid
 	config_entry_value = null
 	min_val = 0
+
+/datum/config_entry/string/donatecolor
+	config_entry_value = "rgba(189, 186, 0, 1)"
+
+/datum/config_entry/string/diamonddonatecolor
+	config_entry_value = "rgba(0, 236, 240, 1)"
 
 /datum/config_entry/flag/guest_ban
 
