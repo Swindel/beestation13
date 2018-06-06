@@ -230,8 +230,10 @@
 			return 'icons/mob/screen_operative.dmi'
 		if("Clockwork")
 			return 'icons/mob/screen_clockwork.dmi'
-		else
+		if("Midnight")
 			return 'icons/mob/screen_midnight.dmi'
+		else
+			return 'icons/mob/screen_simple.dmi'
 
 //colour formats
 /proc/rgb2hsl(red, green, blue)
