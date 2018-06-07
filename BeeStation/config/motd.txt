@@ -1,6 +1,7 @@
 <!-- Most valid html will work in here, excluding images. -->
+<style>h1 {font-family: Arial}</style>
 
-<h1>Welcome to Space Station 13!</h1>
+<h1>Welcome to Bee Station 13!</h1>
 
 <i><b>This server is running a BeeStation 13 Git build.</b></i>
 <i>Built atop /tg/</i>
