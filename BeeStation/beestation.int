@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1528435097
-DIR: code code\__DEFINES code\_globalvars code\_globalvars\lists code\controllers code\controllers\subsystem code\datums code\modules code\modules\admin code\modules\admin\verbs code\modules\jobs 
+LAST_COMPILE_TIME: 1528437995
+DIR: _maps _maps\map_files _maps\map_files\BoxStation 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1426
-WINDOW: code\world.dm;code\__DEFINES\maps.dm;code\_globalvars\lists\mapping.dm;code\datums\map_config.dm;code\modules\admin\banjob.dm;code\modules\admin\topic.dm
-FILE: code\modules\admin\topic.dm
+WINDOW: code\world.dm;code\__DEFINES\maps.dm;code\_globalvars\lists\mapping.dm;code\datums\map_config.dm;code\modules\admin\banjob.dm;code\modules\admin\topic.dm;_maps\boxstation.dm
+FILE: _maps\boxstation.dm
 */
 // END_INTERNALS
