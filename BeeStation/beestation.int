@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1528437995
-DIR: _maps _maps\map_files _maps\map_files\BoxStation 
+LAST_COMPILE_TIME: 1528512193
+DIR: _maps _maps\map_files _maps\map_files\BoxStation code code\modules code\modules\admin code\modules\mining code\modules\mining\equipment code\modules\vending icons icons\obj icons\turf icons\turf\walls sound sound\vox_fem 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1426
-WINDOW: code\world.dm;code\__DEFINES\maps.dm;code\_globalvars\lists\mapping.dm;code\datums\map_config.dm;code\modules\admin\banjob.dm;code\modules\admin\topic.dm;_maps\boxstation.dm
-FILE: _maps\boxstation.dm
+WINDOW: code\modules\vending\cola.dm;icons\obj\wallframe.dmi;icons\turf\walls.dmi;icons\turf\walls\wall.dmi;code\modules\admin\banjob.dm
+FILE: code\modules\admin\banjob.dm
 */
 // END_INTERNALS
